@@ -9,6 +9,9 @@ body {
 	font-family: "Trebuchet MS"
 }
 
+p{
+	
+}
 
 
 /*-------- HEADER --------*/
@@ -72,15 +75,37 @@ main{
 	margin-top: 10vh;
 }
 
+main > article > h3{
+
+}
+
 
 /*------------------------*/
 
 /*-------- footer --------*/
 
 footer{
-	height: 150px;
+	box-sizing: border-box;
+	margin-top: 5vh;
 	position: absolute;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 1rem;
+  	background-color: #efefef;
+  	text-align: center;
+}
+
+footer > nav {
+	position: relative;	
 	text-align: center;
+}
+
+footer > nav > ul{
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    width: 100vw;
 }
 
 /*------------------------*/
