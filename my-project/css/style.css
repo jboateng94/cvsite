@@ -73,7 +73,7 @@ header > nav > ul > li a:hover:not(.active) {
 /*--------- main ---------*/
 
 main{
-	margin-top: 10vh;
+	margin-top: 5vh;
 }
 
 main > article > h3{
@@ -116,7 +116,7 @@ footer > nav > ul > li{
 
 /*------------------------*/
 
-@media only screen and (min-width: 500px) {
+/*@media only screen and (min-width: 500px) {
     header{
     	height: 100px;	
     }
@@ -125,4 +125,4 @@ footer > nav > ul > li{
     	display: inline;
 	
     }
-}
+}*/
