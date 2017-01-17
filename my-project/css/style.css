@@ -35,7 +35,6 @@ header > nav > h1{
 }
 
 header > nav > ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -117,6 +116,13 @@ footer > nav > ul > li{
 
 /*------------------------*/
 
-@media only screen and (max-width: 500px) {
-    
+@media only screen and (min-width: 500px) {
+    header{
+    	height: 100px;	
+    }
+
+    header > nav > ul > li a {
+    	display: inline;
+	
+    }
 }
