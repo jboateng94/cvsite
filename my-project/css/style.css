@@ -112,7 +112,7 @@ footer > nav > ul{
 }
 
 footer > nav > ul > li{
-	display: inline;
+	display: inline-block;
 }
 
 /*------------------------*/
